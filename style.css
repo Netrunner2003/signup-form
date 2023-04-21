@@ -18,7 +18,18 @@ section{
     min-height: 100vh;
     width: 100%;
 }
-
+.login-box{
+    animation : moveInRight 1s
+}
+@keyframes moveInRight {
+    0%{
+        transform:translateX(50px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+    
+}
 .signup-box{
     position: relative;
     width: 400px;
@@ -141,4 +152,5 @@ button:hover{
 .signin a:hover{
     color: white;
 }
+.
 
